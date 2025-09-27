@@ -1,0 +1,44 @@
+#!/usr/bin/env python3
+"""
+Simple Coin Flip Game.
+
+How to play:
+- You guess heads or tails.
+- The computer flips a coin.
+- If your guess matches the result, you win the round.
+- The game tracks your score until you quit.
+"""
+
+import random
+
+def flip_coin():
+    return random.choice(["heads", "tails"])
+
+def main():
+    print("Welcome to the Coin Flip Game! Type Ctrl+C to quit.\n")
+    score = 0
+    rounds = 0
+
+    while True:
+        guess = input("Guess heads or tails: ").strip().lower()
+        if guess not in ["heads", "tails"]:
+            print("Invalid choice. Please type 'heads' or 'tails'.\n")
+            continue
+
+        result = flip_coin()
+        print(f"The coin landed on: {result}")
+
+        rounds += 1
+        if guess == result:
+            print("You guessed right!\n")
+            score += 1
+        else:
+            print("Wrong guess!\n")
+
+        print(f"Score: {score}/{rounds}\n")
+
+if __name__ == "__main__":
+    try:
+        main()
+    except (KeyboardInterrupt, EOFError):
+        print("\nGoodbye!")
