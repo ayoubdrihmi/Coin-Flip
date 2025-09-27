@@ -1,0 +1,1 @@
+You guess either heads or tails, and the computer flips a virtual coin. If your guess matches the result, you win the round. The game keeps track of your total score and number of rounds played until you decide to quit.
